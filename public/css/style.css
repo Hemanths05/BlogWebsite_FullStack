@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 5px solid #00b4d8;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  header a:hover {
+    color: #00b4d8;
+    text-decoration: underline;
+  }
+  
+  /* Blog Post Styles */
+  .post {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .post:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post h2 {
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .post a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  .post a:hover {
+    text-decoration: underline;
+    color: #00b4d8;
+  }
+  
+  .post p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Compose Button */
+  .compose-button {
+    display: inline-block;
+    background-color: #00b4d8;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .compose-button:hover {
+    background-color: #0096c7;
+  }
+  
+  /* Post Preview */
+  .post-preview {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit the number of lines displayed */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    border-top: 5px solid #00b4d8;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  footer a {
+    color: #00b4d8;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

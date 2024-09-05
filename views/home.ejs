@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Blog Home</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Blog</h1>
+    <a href="/compose">Compose New Post</a>
+    <% posts.forEach(function(post) { %>
+      <div class="post">
+        <h2><a href="/posts/<%= post._id %>"><%= post.title %></a></h2>
+        <p><%= post.content.substring(0, 100) %>...</p>
+      </div>
+    <% }); %>
+  </div>
+</body>
+</html>
